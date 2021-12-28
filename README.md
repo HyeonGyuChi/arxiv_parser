@@ -19,10 +19,15 @@
 ```
 
 ## how to use
+1. command
 ```bash
 $ python3 parser.py --parser_type "all" --keyword "variationl" --head 15 # processing all
 $ python3 parser.py --parser_type "hype-week" --keyword "variationl" --head 15 # processing separately
 ```
+2. bash command file
+just double click parser.command
+    - before use, check absolute dir of parser.py
+    - before use, check chmod 777 on parser.command
 
 ## results
 ```bash
@@ -44,7 +49,7 @@ $ python3 parser.py --parser_type "hype-week" --keyword "variationl" --head 15 #
 ```
 ![how_to_use_shell_img](https://user-images.githubusercontent.com/79900862/147534015-85d6c118-df4b-4284-994a-6a061d841289.png)
 
-## cuation
+## caution
 1. Be careful with overwriting when saving results csv
 2. If you request "get" to arxiv web page more than 100 times, the server may be down.
 3. For searching monitoring keyword, it parses from 100 papers data.
@@ -53,3 +58,5 @@ $ python3 parser.py --parser_type "hype-week" --keyword "variationl" --head 15 #
 ### 21.12.28
 1. init project, ver 1.0
 
+### 21.12.29
+1. add bash command file on mac (to use double click)
